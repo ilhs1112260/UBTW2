@@ -9,5 +9,6 @@ elif [[ $1 == "Velocity" ]]; then
 else
   echo "Launching Velocity"
   cd Velocity
+  
   npm start
 fi
